@@ -9,7 +9,6 @@ Created on Wed Aug 21 12:38:40 2019
 import mycsv
 import xmltodict
 import untangle
-from xml.etree import ElementTree as ET
 import csv
 import os
 

@@ -6,7 +6,6 @@ Created on Tue Aug 20 20:07:46 2019
 @author: srikarmurali
 """
 
-import sys
 import mycsv
 
 

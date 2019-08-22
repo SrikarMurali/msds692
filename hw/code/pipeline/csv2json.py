@@ -6,9 +6,7 @@ Created on Tue Aug 20 21:58:34 2019
 @author: srikarmurali
 """
 
-import sys
 import mycsv
-import json
 
 def csv2json(data):
     print("{")
