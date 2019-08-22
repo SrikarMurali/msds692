@@ -15,5 +15,12 @@ def readcsv(data):
     containing a list of names and also return the list of lists
     containing the data.
     """
-    ...
+    data = data.split('\n')
+    for i in range(len(data)):
+        data[i] = data[i].split(",")
+    headers = data[0]
+    data = data[1:]
     return headers, data
+
+
+
